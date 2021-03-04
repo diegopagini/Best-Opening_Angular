@@ -1,5 +1,9 @@
 <div class="card" style="width: 23rem">
-  <iframe [src]="opening.video | domSeguro" class="card-img-top"></iframe>
+  <iframe
+    [src]="opening.video | domSeguro"
+    class="card-img-top"
+    allowfullscreen
+  ></iframe>
   <div class="card-body">
     <h5 class="card-title">{{ opening.name }}</h5>
     <a class="btn btn-primary">Votar</a>

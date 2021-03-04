@@ -1,5 +1,7 @@
 <main id="main">
-  <ng-container *ngFor="let opening of openings">
-    <app-card [opening]="opening"></app-card>
-  </ng-container>
+  <div class="container card-container">
+    <ng-container *ngFor="let opening of openings">
+      <app-card [opening]="opening"></app-card>
+    </ng-container>
+  </div>
 </main>
