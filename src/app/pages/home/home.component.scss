@@ -1,6 +1,6 @@
 main {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -15,4 +15,9 @@ main::before {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+app-card {
+  position: relative;
+  padding: 1rem;
 }

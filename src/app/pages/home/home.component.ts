@@ -7,7 +7,11 @@ import { interval, timer } from 'rxjs';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  openings = [1, 2, 3, 4];
+  openings = [
+    { name: 'Pokemon', video: 'https://www.youtube.com/embed/uDIoEbbFKAY' },
+    { name: 'Dragon Ball', video: 'https://www.youtube.com/embed/9Hbd1QeI1Og' },
+    { name: 'Naruto', video: 'https://www.youtube.com/embed/uMyuSHewmks' },
+  ];
 
   backgroundImgs = [
     'assets/img/br.jpg',
