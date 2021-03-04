@@ -7,17 +7,22 @@ import { interval, timer } from 'rxjs';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  openings = [1, 2, 3, 4];
+
   backgroundImgs = [
     'assets/img/br.jpg',
-    'assets/img/pk.jpg',
+    'assets/img/br1.jpg',
+    'assets/img/cz1.jpg',
     'assets/img/cz2.jpg',
-    'assets/img/db1.webp',
+    'assets/img/db1.jpg',
     'assets/img/db2.jpg',
     'assets/img/n1.jpg',
     'assets/img/n2.jpg',
-    'assets/img/pk.jpg',
     'assets/img/pk2.jpg',
     'assets/img/pk3.jpg',
+    'assets/img/one1.jpg',
+    'assets/img/one2.jpg',
+    'assets/img/yg.jpg',
   ];
 
   constructor() {}

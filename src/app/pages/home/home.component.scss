@@ -4,7 +4,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  transition: 1s 1s ease-out;
+  transition: 1s 1s linear;
   position: relative;
 }
 main::before {
