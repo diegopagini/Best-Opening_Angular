@@ -40,7 +40,7 @@ export class HomeComponent implements OnInit {
     },
     {
       name: 'El Baron Rojo',
-      video: 'https://www.youtube.com/embed/dQPiE0qN_gE&t=72s',
+      video: 'https://www.youtube.com/embed/dQPiE0qN_gE',
     },
     {
       name: 'Dragon Ball GT',
