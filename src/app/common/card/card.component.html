@@ -1,11 +1,11 @@
-<div class="card" style="width: 23rem">
+<div class="card animated fadeIn">
   <iframe
     [src]="opening.video | domSeguro"
-    class="card-img-top"
+    class="card-video animated fadeIn"
     allowfullscreen
   ></iframe>
-  <div class="card-body d-grid">
+  <div class="card-body">
     <h1 class="card-title">{{ opening.name }}</h1>
-    <a class="btn btn-block btn-primary">Votar </a>
+    <a *ngIf="vote" (click)="voteOpening()" class="btn-custom">Votar</a>
   </div>
 </div>

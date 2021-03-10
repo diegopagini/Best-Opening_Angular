@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { interval, timer } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +6,8 @@ import { interval, timer } from 'rxjs';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  vote: boolean = true;
+
   openings = [
     { name: 'Pokemon', video: 'https://www.youtube.com/embed/uDIoEbbFKAY' },
     { name: 'Dragon Ball', video: 'https://www.youtube.com/embed/9Hbd1QeI1Og' },
@@ -55,4 +56,8 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  voteOpening() {
+    this.vote = !this.vote;
+  }
 }

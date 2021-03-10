@@ -1,10 +1,14 @@
 <main id="main">
-  <div class="container card-container">
+  <div class="container card-container animated fadeIn">
     <ng-container *ngFor="let opening of openings">
-      <app-card [opening]="opening"></app-card>
+      <app-card
+        [opening]="opening"
+        (sendVote)="voteOpening($event)"
+        [vote]="vote"
+      ></app-card>
     </ng-container>
   </div>
 </main>
-<div class="container">
+<div class="container animated fadeIn">
   <app-chart></app-chart>
 </div>

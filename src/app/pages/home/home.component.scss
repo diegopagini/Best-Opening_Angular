@@ -1,11 +1,14 @@
 .card-container {
   max-width: 1440px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 
   app-card {
     position: relative;
+    width: 75%;
     padding: 1rem;
   }
 }
