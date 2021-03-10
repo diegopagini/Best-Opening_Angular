@@ -4,8 +4,14 @@
   width: 100%;
   display: grid;
   grid-template-columns: 30% 70%;
-  background-color: #000000;
   filter: drop-shadow(5px 3px 5px);
+  background: rgb(250, 250, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 250, 250, 1) 40%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  border: none;
 
   &-video {
     grid-column: 1;
@@ -17,12 +23,11 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: #000000;
 
     .card-title {
       font-family: "Roboto", sans-serif;
       margin-left: 1rem;
-      color: #ffffff;
+      color: #000000;
       font-weight: 900;
       font-size: 22px;
     }

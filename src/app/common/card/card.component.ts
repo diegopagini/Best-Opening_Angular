@@ -23,6 +23,7 @@ export class CardComponent {
     }).then((result) => {
       if (result.isConfirmed) {
         this.confirmVote();
+        Swal.fire('Tu voto se ha enviado.');
       }
     });
   }
