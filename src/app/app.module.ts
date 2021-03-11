@@ -7,6 +7,7 @@ import { HomeModule } from './pages/home/home.module';
 import { CardModule } from './common/card/card.module';
 import { FooterModule } from './common/footer/footer.module';
 import { HeaderModule } from './common/header/header.module';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [AppComponent],

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "best-opening": {
+      "hosting": {
+        "encuesta": [
+          "best-opening"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "best-opening"
+  }
+}
