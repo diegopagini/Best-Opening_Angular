@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './pages/home/home.module';
 import { CardModule } from './common/card/card.module';
 import { FooterModule } from './common/footer/footer.module';
+import { HeaderModule } from './common/header/header.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { FooterModule } from './common/footer/footer.module';
     HomeModule,
     CardModule,
     FooterModule,
+    HeaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -20,6 +20,18 @@ export class FooterComponent implements OnInit {
     'assets/img/one1.jpg',
     'assets/img/one2.jpg',
     'assets/img/yg.jpg',
+    'assets/img/inu1.jpg',
+    'assets/img/ran1.jpg',
+    'assets/img/inu2.jpg',
+    'assets/img/sm.jpg',
+    'assets/img/sm1.jpg',
+    'assets/img/slam1.jpg',
+    'assets/img/slam2.jpg',
+    'assets/img/btx.jpg',
+    'assets/img/btx2.jpg',
+    'assets/img/neon.jpg',
+    'assets/img/gt1.jpg',
+    'assets/img/gt2.jpg',
   ];
 
   constructor() {}

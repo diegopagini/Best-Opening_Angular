@@ -10,5 +10,9 @@
     position: relative;
     width: 75%;
     padding: 1rem;
+
+    @media (max-width: 950px) {
+      width: 100%;
+    }
   }
 }

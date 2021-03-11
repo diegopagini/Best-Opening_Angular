@@ -48,8 +48,8 @@ export class HomeComponent implements OnInit {
       video: 'https://www.youtube.com/embed/wgZ-ATUGXDw',
     },
     {
-      name: 'Yu-Gi-Oh!',
-      video: 'https://www.youtube.com/embed/fZZkvMKd4Fs',
+      name: 'Neon Genesis Evangelion',
+      video: 'https://www.youtube.com/embed/c-CwW2VRA9c',
     },
   ];
 

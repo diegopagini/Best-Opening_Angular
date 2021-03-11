@@ -52,7 +52,7 @@ export class ChartComponent {
       value: 1,
     },
     {
-      name: 'Yu-Gi-Oh!',
+      name: 'Neon Genesis Evangelion',
       value: 1,
     },
   ];
